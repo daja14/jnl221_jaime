@@ -1,11 +1,16 @@
 /*This is the CSS page for our final template.*/
 
-.footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #cccccc;
+#article {
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: lightgray;
+}
+
+.footer p {
+	background-color: #whitesmoke;
 	text-align: center;
 	font-size: 20px;
 	margin-bottom: 0;
-
 }
 .header {
 	height: auto;
@@ -13,161 +18,80 @@
 	font-size: 50px;
 	text-align: center;
 	font-family: 'Georgia', serif;
-	background-color: goldenrod;
+	background-color: #F5E2C8;
+	background-size: cover;
+	color: #17255A;
 }
+
+.headline {
+	height: auto;
+	font-weight: bold;
+	font-size: 25px;
+	font-family: 'Georgia', serif;
+	color: #17255A;
+	text-align: center;
+}
+
+.featureimage {
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+  	max-width: 640px;
+  	max-height: 360px;
+  	height: auto;
+
+}
+
+#button {
+	text-align: center;
+	font-size: 20px;
+	color: #17255A;
+	font-weight: bold;
+	padding: 12px;
+	width: 20%;
+	margin-left: 42%;
+
+}
+
 h4 {
 	font-style: italic;
 	font-size: 40px;
-	font-family: 'Georgia', serif;
+	font-family: 'DM Serif Display', sans-serif;
 }
-byline {
-	font-style: italic;
-	font-size: 70px;
-	font-family: 'Georgia', serif;
-}	
+
 h3 {
-	font-size: 30px;
+	font-size: 25px;
+	font-family: 'Georgia', serif;
+	color: #17255A;
+
 }
+
 p {
 	font-size: 20px;
-	font-family: 'Georgia', serif;
+	font-family: 'DM Serif Display', sans-serif;
+	color: black;
+
 }
+
 img {
 	float: right;
 	margin-right: 5%;
-	margin-left: 5%;
+	margin-left: 5%
 }
 
-.poppins-thin {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+iframe {
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
 
-.poppins-extralight {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-}
-
-.poppins-light {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: normal;
-}
-
-.poppins-regular {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.poppins-medium {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: normal;
-}
-
-.poppins-semibold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
-
-.poppins-bold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.poppins-extrabold {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.poppins-black {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: normal;
-}
-
-.poppins-thin-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: italic;
-}
-
-.poppins-extralight-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 200;
-  font-style: italic;
-}
-
-.poppins-light-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 300;
-  font-style: italic;
-}
-
-.poppins-regular-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.poppins-medium-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 500;
-  font-style: italic;
-}
-
-.poppins-semibold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-style: italic;
-}
-
-.poppins-bold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-.poppins-extrabold-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 800;
-  font-style: italic;
-}
-
-.poppins-black-italic {
-  font-family: "Poppins", sans-serif;
-  font-weight: 900;
-  font-style: italic;
-}
-
-/*Don't worry about this section yet*/
 @media only screen and (max-width: 767px)
 {
-.footer p { /* This is how you add styles for only the p text within the footer. */
-	background-color: #cornflowerblue;
-	text-align: center;
-	font-size: 20px;
-	margin-bottom: 0;
+ 
+img {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
 }
-
-
- .list {
- 	float: none;
- 	min-width: 90%;
- 	margin-left: 10px;
- 	margin-bottom: 30px;
- 	margin-top: 30px;
- 	border: 2px solid darkgray;
- 	padding-left: 10px;
- }
- iframe {
- 	min-width: 90%;
- 	margin-right: 10px;
- }
-}
+.iframe {
+	float: none;
