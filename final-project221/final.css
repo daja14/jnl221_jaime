@@ -83,6 +83,10 @@ img {
 iframe {
 	margin-top: 5%;
 	margin-bottom: 5%;
+	width: 50%;
+	float: right;
+	padding-left: 30px;
+	padding-bottom: 10px;
 }
 
 @media only screen and (max-width: 767px)
@@ -93,5 +97,5 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 }
-.iframe {
+iframe {
 	float: none;
